@@ -1,11 +1,14 @@
 		var videoArray = [
-			//'one.mp4',
+			'one.mp4',
 			'two.mp4',
 			'three.mp4',
-			//'four.mp4',
+			'four.mp4',
 			'five.mp4',
-			//'six.mp4',
-			'seven.mp4'
+			'six.mp4',
+			'seven.mp4',
+			'eight.mp4',
+			'nine.mp4',
+			'ten.mp4'
 				];
 		var count = Math.floor(Math.random() * videoArray.length);
 		document.getElementsByTagName('source')[0].src = 'mov/' + videoArray[count];
